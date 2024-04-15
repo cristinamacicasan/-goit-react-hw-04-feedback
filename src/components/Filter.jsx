@@ -2,7 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Filter = ({ value, onChange }) => {
-  return (
+    return (
+      
     <input
       type="text"
       value={value}

@@ -32,7 +32,8 @@ const App = () => {
     setContacts(prevContacts => [...prevContacts, newContact]);
   };
 
-   return (
+  return (
+     
     <div className={styles.container}>
        <h1 className={styles.title}>Phonebook</h1>
        <ContactForm contacts={contacts} onAddContact={addContact} />
